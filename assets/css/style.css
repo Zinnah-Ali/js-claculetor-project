@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+body{
+    background: #ddd;
+}
+.slidecontainer {
+    width: 100%;
+  }
+
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 12px;
+    background: white;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    box-shadow: 2px 3px 24px -4px rgba(125,111,111,0.79);
+    -webkit-box-shadow: 2px 3px 24px -4px rgba(125,111,111,0.79);
+    -moz-box-shadow: 2px 3px 24px -4px rgba(125,111,111,0.79);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  .calculator {
+      
+      padding: 40px 40px 40px 40px !important;
+      margin: 0px 0px 0px 0px !important;
+      border-radius: 12px !important;
+      border: 5px hidden #0019311A !important;
+      -webkit-box-shadow: 0px 0px 5px #1a1a1a33;
+      -moz-box-shadow: 0px 0px 5px #1A1A1A33 !important;
+      box-shadow: 0px 0px 5px #1a1a1a33 !important;
+      -webkit-backdrop-filter: blur(4px);
+      backdrop-filter: blur(4px);
+      background-color: #ffffffFF !important;
+  }
+  .price{
+      justify-content: space-between;
+      display:flex;
+      color: #2A4669;
+      font-weight: 1000;
+      font-size:17px;
+  }
+  #blog{
+      
+      color: #61CF71!important;
+      font-size: 40px !important;
+      justify-content: center !important;
+     vertical-align: middle;
+  
+  }
+  #words{
+      font-size: 55px
+  }
+  .blog-posts{
+    text-align: center;
+  }
+  .noOfWords{
+         text-align: center;
+  }  
+  .w-full {
+      width: 104%;
+      display : flex;
+      margin-top: -6px;
+      margin-bottom: 5px;
+  }
+  .border-l {
+      border-left-width: 1px;
+  }
+  .border-gray-50\/50 {
+      border-color: black;
+  }
+  .pl-2 {
+      padding-left:px;
+  }
+
+  

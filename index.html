@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculetro Project</title>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" /> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="custom-cal-container container mt-5 w-50">
+        <div class="calculator">
+            <div class="noOfWords">
+                <h1><span id="words">40,000</span> words</h1>
+            </div>
+            <div class="slidecontainer">
+                <input type="range" min="10000" max="200000" value="10000" class="slider" id="myRange" step="10000">
+                <div class=" flex w-full py-2 ">
+                    <div class=" border-l border-gray-50/50 w-full text-gray-50/50 font-bold">10</div>
+                    <div class=" border-l border-gray-50/50 text-gray-50/50 font-bold w-full">40</div>
+                    <div class=" border-l border-gray-50/50 w-full text-gray-50/50 font-bold pl-2">70</div> 
+                    <div class=" border-l border-gray-50/50 w-full text-gray-50/50 font-bold pl-2">100</div>
+                    <div class=" border-l border-gray-50/50 w-full text-gray-50/50 font-bold pl-2">130</div>
+                    <div class=" border-l border-gray-50/50 w-full text-gray-50/50 font-bold pl-2">160</div>
+                    <div class=" border-l border-gray-50/50 w-full text-gray-50/50 font-bold pl-2">200</div>
+                </div>
+                <div class="price">
+                    $0.08 Per Word <p>$<span id="price">3,200</span></p>
+                </div>
+                <div class="blog-posts">
+                    <h4>Or about <span id="blog">30-40</span> blog posts!</h4>
+                </div>
+                <template class="class1">class1</template>
+                <template class="class2">class2</template>
+                <template class="class3">class3</template>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
